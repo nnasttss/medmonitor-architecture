@@ -1,0 +1,12 @@
+@startuml
+title Data Models
+class User {
+  +id: string
+  +email: string
+}
+class Patient {
+  +userId: string
+  +name: string
+}
+User "1" -- "1" Patient
+@enduml

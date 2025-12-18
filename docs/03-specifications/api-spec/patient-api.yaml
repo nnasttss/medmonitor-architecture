@@ -1,0 +1,10 @@
+openapi: 3.0.0
+info:
+  title: Patient API
+paths:
+  /patients:
+    get:
+      summary: Get patients
+      responses:
+        '200':
+          description: Patient list

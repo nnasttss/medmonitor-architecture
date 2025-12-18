@@ -1,0 +1,8 @@
+@startuml
+title Container Diagram
+container "Web App" as Web
+container "API Service" as API
+database "PostgreSQL" as DB
+Web -> API : Calls
+API -> DB : Stores data
+@enduml

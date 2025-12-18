@@ -1,7 +1,7 @@
-# MedMonitor Architecture
+# MedMonitor Architecture Documentation
 
-## Structure
-- docs/ - Documentation
-- diagrams/ - Generated diagrams
-- scripts/ - Automation scripts
-- templates/ - Document templates
+## Project Structure
+- `docs/` - Documentation
+- `diagrams/` - Diagrams
+- `scripts/` - Scripts
+- `templates/` - Templates

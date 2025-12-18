@@ -1,0 +1,6 @@
+@startuml
+title System Context
+actor User
+system MedMonitor
+User -> MedMonitor : Uses
+@enduml

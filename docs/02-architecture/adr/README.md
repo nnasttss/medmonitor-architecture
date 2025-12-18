@@ -1,1 +1,2 @@
-# Architecture Decisions
+# Architecture Decision Records
+Documentation of architectural decisions.
