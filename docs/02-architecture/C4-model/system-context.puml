@@ -1,0 +1,19 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title System Context Diagram: MedMonitor
+
+Person(patient, "Пацієнт")
+Person(doctor, "Лікар")
+
+System(medmonitor, "MedMonitor System", "Система моніторингу")
+
+System_Ext(ehr, "EHR System", "Медичні записи")
+System_Ext(device, "IoT Device", "Пристрій")
+
+Rel(patient, medmonitor, "Переглядає", "HTTPS")
+Rel(doctor, medmonitor, "Моніторить", "HTTPS")
+Rel(device, medmonitor, "Надсилає", "MQTT")
+Rel(medmonitor, ehr, "Експортує", "HL7")
+
+@enduml
