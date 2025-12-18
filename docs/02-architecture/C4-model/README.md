@@ -1,1 +1,1 @@
-# C4 Model Diagrams
+# C4 Diagrams

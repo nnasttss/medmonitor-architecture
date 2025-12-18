@@ -1,1 +1,1 @@
-# Architecture Decision Records
+# Architecture Decisions
