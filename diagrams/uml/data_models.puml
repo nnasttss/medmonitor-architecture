@@ -8,5 +8,18 @@ class Patient {
   +userId: string
   +name: string
 }
-User "1" -- "1" Patient
-@enduml
+EOFduml" -- "1" Patient
+
+Анастасия@DESKTOP-59EVM56 MINGW64 ~/medmonitor-architecture (main)
+$ cat > docs/03-specifications/api-spec/auth-api.yaml << 'EOF'
+opcat > docs/03-specifications/api-spec/auth-api.yaml << 'EOF'
+openapi: 3.0.0
+info:le: Auth API
+  title: Auth API
+paths:h/login:
+  /auth/login:
+    post:mary: User login
+      summary: User login
+      responses:
+        '200':ription: Success
+          description: Success

@@ -1,10 +1,11 @@
+cat > docs/03-specifications/api-spec/patient-api.yaml << 'EOF'
 openapi: 3.0.0
-info:
+info:le: Patient API
   title: Patient API
-paths:
+paths:ients:
   /patients:
-    get:
+    get:mmary: Get patients
       summary: Get patients
       responses:
-        '200':
+        '200':ription: Patient list
           description: Patient list
