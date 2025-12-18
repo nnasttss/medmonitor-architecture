@@ -1,4 +1,3 @@
-# MedMonitor Architecture
 
 ## Structure
 - docs/ - Documentation
